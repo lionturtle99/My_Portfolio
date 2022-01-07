@@ -1,0 +1,34 @@
+body{
+  font-family: sans-serif;
+}
+.navbar{
+  position:relative;
+  width:100%;
+  height: 20vh;
+  background:rgb(253, 253, 253);
+}
+.skatepng{
+  width:auto;
+  height:100px;
+}
+nav{
+  display:flex;
+  width:90%;
+  margin:auto;
+  padding:10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display:inline-block;
+  list-style:none;
+  margin:10px 20px;
+}
+nav ul li a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+nav ul li a:hover{
+  color:red;
+}
