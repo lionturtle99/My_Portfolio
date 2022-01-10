@@ -10,10 +10,10 @@ body{
 .navbar {
 	width: 100%;
 	position: absolute;
+  top:0;
+  left:0;
 	z-index: 1;
-  /* width: 90%;
-  margin: auto;
-  padding-left:3em 0 5em; */
+  padding:20px 40px;
 }
 .navbar ul {
 	height: 50px;
@@ -21,53 +21,28 @@ body{
 }
 .navbar ul li {
 	display: inline-block;
-	padding: 40px 15px;
+	padding-top: 40px;
+  padding-right:4.5em;
 	font-size: 20px;
 }
 nav ul li a{
   text-decoration:none;
-  color:rgb(255, 255, 255);
+  color:rgb(25, 25, 25);
   font-weight:bold;
 }
-
-/* .navbar nav{
-  align-items: center;
-  justify-content: space-between;
-} */
-
-/* .navbar{
-  position:relative;
-  width:100%;
-  height: 15vh;
-} */
+nav .githubnav li a{
+  color:white;
+}
 .skatepng{
   width:auto;
   height:120px;
 }
-/* nav{
-  display:flex;
-  width:90%;
-  margin:auto;
-  padding:2px 0;
-  align-items: center;
-  justify-content: space-between;
-}
-nav ul li{
-  display:inline-block;
-  list-style:none;
-  margin:10px 42px;
-}
-nav ul li a{
-  text-decoration:none;
-  color:black;
-  font-weight:bold;
-} */
 nav ul li a:hover{
   color:red;
 }
 
 .heading{
-  margin-top: 15%;
+  margin-top: 24%;
   margin-left: 8%;
 }
 h1{
@@ -133,25 +108,6 @@ h1{
 }
 .shapes:hover .person {
   left:270px;
-}
-
-.repos{
-  width:80%;
-  margin:auto;
-  padding:3em;
-  display:grid;
-  grid-template-columns:repeat(5, 1fr);
-  grid-gap:1em;
-}
-.repos div{
-  background:rgb(243, 240, 240);
-}
-.repos div a{
-  text-decoration: none;
-  color:black;
-}
-.repos div a:hover{
-  color:red;
 }
 
 .animation-area {
@@ -224,5 +180,23 @@ h1{
 		transform: translateY(-800px) rotate(360deg);
 		opacity: 0;
 	}
+}
+
+.container{
+  position:absolute;
+  top:50%;
+  left:10%;
+  width:80%;
+  padding:3em;
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  grid-gap:1em;
+}
+.container div a{
+  text-decoration: none;
+  color:black;
+}
+.container div a:hover{
+  color:red;
 }
 
