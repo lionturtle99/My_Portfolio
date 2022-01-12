@@ -113,7 +113,7 @@ h1{
 .animation-area {
 	background: linear-gradient(to left, #8942a8, #ba382f);
 	width: 100%;
-	height: 100vh;
+	height: 140vh;
 }
 .box-area {
 	position: absolute;
@@ -184,19 +184,36 @@ h1{
 
 .container{
   position:absolute;
-  top:50%;
-  left:10%;
-  width:80%;
+  top:30%;
+  left:1%;
   padding:3em;
   display:grid;
   grid-template-columns:repeat(5, 1fr);
   grid-gap:1em;
 }
+.container div{
+  background:rgb(255, 255, 255, 0.1);
+  border:solid rgb(255, 255, 255, 0.2) 1px;
+  padding:1.5em;
+  min-height:5em;
+}
 .container div a{
   text-decoration: none;
-  color:black;
+  color:rgb(66, 9, 104);
 }
 .container div a:hover{
   color:red;
 }
+.container div a h3{
+  margin-bottom:1em;
+  text-align:center;
+}
+.container div p{
+  color:rgb(0, 0, 0);
+  line-height: 25px;
+}
+.container div ul{
+  margin:.7em 1.7em;
+}
+
 
