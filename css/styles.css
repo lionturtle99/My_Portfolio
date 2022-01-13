@@ -113,14 +113,14 @@ h1{
 .animation-area {
 	background: linear-gradient(to left, #8942a8, #ba382f);
 	width: 100%;
-	height: 140vh;
+	min-height: 140vh;
 }
 .box-area {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 140vh;
 	overflow: hidden;
 }
 .box-area li {
@@ -130,8 +130,8 @@ h1{
 	width: 25px;
 	height: 25px;
 	background: rgba(255, 255, 255, 0.2);
-	animation: animate 20s linear infinite;
-	bottom: -150px;
+	animation: animate 30s linear infinite;
+	bottom: -200px;
 }
 .box-area li:nth-child(1) {
 	left: 86%;
@@ -177,7 +177,7 @@ h1{
 		opacity: 1;
 	}
 	100% {
-		transform: translateY(-800px) rotate(360deg);
+		transform: translateY(-1300px) rotate(360deg);
 		opacity: 0;
 	}
 }
@@ -221,7 +221,7 @@ h1{
               linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
               linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
   width:100%;
-  height:100vh;
+  min-height:100vh;
 }
 .content{
   position:absolute;
