@@ -18,7 +18,7 @@ _{A thorough look at Liam Ellers life and career.}_
 ## Setup/Installation Requirements
 
 * _To download onto your personal device: Click the green "Code" button in the top right of the github repository, from the dropdown, select the "Download Zip" option, Once the file has finished downloading, navigate to your computers downloads and right click, select open with Archive Utility for macs (or whatever un-compress application your computer has), open file directory and open index.html in your browser or text editor application._
-* _Navigate to [gh-pages](https://lionturtle99.github.io/my-portfolio/) to view the completed site in the DOM._
+* _Navigate to [gh-pages](https://lionturtle99.github.io/My_Portfolio/) to view the completed site in the DOM._
 
 ## Known Bugs
 
